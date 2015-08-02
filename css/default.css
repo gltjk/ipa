@@ -1,0 +1,36 @@
+body {
+	font-family: Segoe UI, Microsoft Yahei;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	font-size: 24px;
+	border-color: black;
+}
+
+#abcTable  {
+	display: ;
+}
+
+#ipaTable td {
+	font-family: Segoe UI, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	text-align: center;
+	width: 40px;
+}
+
+#abcTable td {
+	font-family: Segoe UI, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	text-align: center;
+	width: 56px;
+}
+
+td:not(.no):hover{
+	background-color:#FF0;
+	cursor:pointer;
+}
+td:not(.no):active{background-color:#F00;}
